@@ -1,0 +1,18 @@
+{
+    "extends": [
+      "@wemake-services/eslint-config-javascript",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "rules": {
+      "semi": "off"
+    }
+}
+  
